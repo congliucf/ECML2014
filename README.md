@@ -11,7 +11,7 @@ This repository contains Matlab implementation of paper
 2. Please install and setup CVX: http://cvxr.com/
 
 
-# Suggested use:
+# Suggested use
 
 1. Training:
   
@@ -22,4 +22,9 @@ This repository contains Matlab implementation of paper
     `[cpr, cprEachTask] = test(trainSample, testSample, svmModel, theta);`
 
 
-Please refer to the train() and test() function for detailed explanation of each input/output.
+Please refer to the train() and test() function for detailed explanation to each input/output parameter.
+
+
+# Note
+
+A sample script is provided in the file sample.m. It demonstrates how to use the train() and test() functions. The sample is based on the robot data set, which is also included in the repository.
