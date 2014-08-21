@@ -1,4 +1,4 @@
-function [ model ] = trainSVMs(trainData, theta, C)
+function model = trainSVMs(trainData, theta, C)
 
 numTasks = size(trainData, 2);
 numKernels = size(trainData(1).kernelMatrix, 3);

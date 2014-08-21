@@ -1,4 +1,4 @@
-function [ value ] = calFunctionValue( model, trainData, theta )
+function value = calFunctionValue(model, trainData, theta)
 % A function that calculates the SVM function values for each task with 
 % multiple kernels, given the corresponding SVM models, training data and 
 % the kernel combination coefficients.
